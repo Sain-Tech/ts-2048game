@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 512px;
+  margin: auto auto;
+}
+
+.upper-deck {
+  align-items: center;
+  background: rgba(0, 183, 255, 0.288);
+  border: 2px solid rgba(0, 183, 255, 0.479);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-height: 64px;
+  padding: 8px;
+}
+
+.upper-deck > h2 {
+  margin: 0 8px;
+  color: rgb(0, 145, 202);
+}
+
+.board-container {
+  display: block;
+  background: rgb(182, 169, 160);
+  border: none;
+  border-radius: 8px;
+  width: 512px;
+  height: 512px;
+  min-height: 100px;
+  margin-top: 16px;
+}
+
+.board-container > .row {
+  display: flex;
+  justify-content: space-evenly;
+  height: calc(25% - 17px);
+  margin: 13.5px 0;
+}
+
+.board-container > .row > .cell {
+  background: rgba(238, 228, 218, 0.35);
+  border-radius: 6px;
+  font-size: 48px;
+  font-family: system-ui;
+  font-weight: 700;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(25% - 17px);
+  height: 100%;
+}
+
+.board-container > .row > .cell.fill-0 {
+  background: rgba(238, 228, 218, 0.35);
+  color: transparent;
+}
+
+.board-container > .row > .cell.fill-2 {
+  background: #eee4da;
+  color: #776e65;
+}
+
+.board-container > .row > .cell.fill-4 {
+  background: #ede0c8;
+  color: #776e65;
+}
+
+.board-container > .row > .cell.fill-8 {
+  background: #f2b179;
+  color: #f9f6f2;
+}
+
+.board-container > .row > .cell.fill-16 {
+  background: #f59563;
+  color: #f9f6f2;
+}
+
+.board-container > .row > .cell.fill-32 {
+  background: #f67c5f;
+  color: #f9f6f2;
+}
+
+.board-container > .row > .cell.fill-64 {
+  background: #f65e3b;
+  color: #f9f6f2;
+}
+
+.board-container > .row > .cell.fill-128 {
+  background: #edcf72;
+  color: #f9f6f2;
+  font-size: 42px;
+}
+
+.board-container > .row > .cell.fill-256 {
+  background: #edcc61;
+  color: #f9f6f2;
+  font-size: 42px;
+}
+
+.board-container > .row > .cell.fill-512 {
+  background: #edc850;
+  color: #f9f6f2;
+  font-size: 42px;
+}
+
+.board-container > .row > .cell.fill-1024 {
+  background: #edc53f;
+  color: #f9f6f2;
+  font-size: 36px;
+}
+
+.board-container > .row > .cell.fill-2048 {
+  background: #ecc02c;
+  color: #f9f6f2;
+  font-size: 36px;
+}
+
+.board-container > .row > .cell.fill-4096 {
+  background: #ebb915;
+  color: #f9f6f2;
+  font-size: 36px;
+}
+
+.board-container > .row > .cell.fill-8192 {
+  background: #ecb500;
+  color: #f9f6f2;
+  font-size: 36px;
+}
+
+.board-container > .row > .cell.fill-16384 {
+  background: #c04c09;
+  color: #f9f6f2;
+  font-size: 36px;
+}
