@@ -182,7 +182,7 @@ export default class Game implements GameInterface {
   render() {
     this.scoreBoard.innerHTML = "#" + this.gameScore;
     if (this.gameState !== "INIT") {
-      console.log("rendered!");
+      // console.log("rendered!");
       const len = this.gameData.length;
       for (let i = 0; i < len; i++) {
         for (let j = 0; j < len; j++) {
