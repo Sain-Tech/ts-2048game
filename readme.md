@@ -1,7 +1,7 @@
 # [토이프로젝트] Typescript 2048 퍼즐 게임
 
-> Typescript 를 공부하면서 간단하게 만들어본 2048 퍼즐 게임입니다.
-> ts-2048game.vercel.app
+> Typescript 를 공부하면서 간단하게 만들어본 2048 퍼즐 게임입니다.  
+> [서비스 링크로 이동](https://ts-2048game.vercel.app)
 
 ![image](https://user-images.githubusercontent.com/5365310/161766156-f95f2250-8420-4562-9cc2-2cd1cda45269.png)
 
